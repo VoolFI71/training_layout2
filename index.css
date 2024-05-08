@@ -9,7 +9,7 @@
 }
 
 .div1{
-    height:1100px;
+    height:1000px;
     width: 100%;
     background-color: #28293e;
 }
@@ -39,6 +39,11 @@
     justify-content: space-between;
     gap: 160px;
     list-style-type: none;
+    color: white;
+}
+
+.nav_header a{
+    text-decoration: none;
     color: white;
 }
 
@@ -266,6 +271,10 @@
     color: #EF6D58;
 }
 
+.pick_div2{
+    pointer-events: none;
+}
+
 .text2_div2{
     font-size: 64px;
     font-weight: 800;
@@ -439,6 +448,11 @@
     color: #391400;
 }
 
+.video{
+    pointer-events: none;
+
+}
+
 .list{
     margin-top: 60px;
     display: flex;
@@ -599,7 +613,7 @@
     
     display: flex;
     justify-content: center;
-    margin-top: 75px;
+    margin-top: 120px;
 }
 
 .prices1{
@@ -608,10 +622,12 @@
     flex-direction: column;
     justify-content: space-around;
     height: 450px;
-    width: 320px;
+    width: 340px;
     border: 1px solid #F3D1BF;
     border-radius: 3px;
     transition: 0.3s;
+    padding-right: 10px;
+
 }
 
 .prices2{
@@ -619,10 +635,12 @@
     flex-direction: column;
     justify-content: space-around;
     height: 450px;
-    width: 320px;
+    width: 340px;
     border: 1px solid #F3D1BF;
     border-radius: 3px;
-    transition: 0.3s
+    transition: 0.3s;
+    padding-right: 10px;
+    
 }
 
 .prices3{
@@ -630,29 +648,30 @@
     flex-direction: column;
     justify-content: space-around;
     height: 450px;
-    width: 320px;
+    width: 340px;
     border: 1px solid #F3D1BF;
     border-radius: 3px;
-    transition: 0.3s
+    transition: 0.3s;
+    padding-right: 10px;
 }
 
 
 .prices1 h1{
-    margin-left: 45px;
+    margin-left: 40px;
     line-height: 32px;
     font-size: 16px;
     color: #EF6D58;
 }
 
 .prices2 h1{
-    margin-left: 45px;
+    margin-left: 40px;
     line-height: 32px;
     font-size: 16px;
     color: #EF6D58;
 }
 
 .prices3 h1{
-    margin-left: 45px;
+    margin-left: 40px;
     line-height: 32px;
     font-size: 16px;
     color: #EF6D58;
@@ -660,7 +679,7 @@
 
 
 .prices1 h2{
-    margin-left: 45px;
+    margin-left: 40px;
     line-height: 48px;
     font-weight: 800;
     font-size: 40px;
@@ -668,7 +687,7 @@
 }
 
 .prices2 h2{
-    margin-left: 45px;
+    margin-left: 40px;
     line-height: 48px;
     font-weight: 800;
     font-size: 40px;
@@ -676,7 +695,7 @@
 }
 
 .prices3 h2{
-    margin-left: 45px;
+    margin-left: 40px;
     line-height: 48px;
     font-weight: 800;
     font-size: 40px;
@@ -684,7 +703,7 @@
 }
 
 .prices1 h3{
-    margin-left: 45px;
+    margin-left: 40px;
     line-height: 32px;
     font-weight: 400;
     font-size: 16px;
@@ -693,7 +712,7 @@
 }
 
 .prices2 h3{
-    margin-left: 45px;
+    margin-left: 40px;
     line-height: 32px;
     font-weight: 400;
     font-size: 16px;
@@ -702,7 +721,7 @@
 }
 
 .prices3 h3{
-    margin-left: 45px;
+    margin-left: 40px;
     line-height: 32px;
     font-weight: 400;
     font-size: 16px;
@@ -712,7 +731,8 @@
 
 .prices1:hover{
     background-color: white;
-    height: 550px;
+    transform: translateY(-60px);
+    height: 510px;
 }
 
 .prices1:hover .btn_price{
@@ -721,8 +741,8 @@
 
 .prices2:hover{
     background-color: white;
-    height: 550px;
-
+    transform: translateY(-60px);
+    height: 510px;
 }
 
 .prices2:hover .btn_price{
@@ -731,7 +751,8 @@
 
 .prices3:hover{
     background-color: white;
-    height: 550px;
+    transform: translateY(-60px);
+    height: 510px;
 }
 
 .prices3:hover .btn_price{
@@ -763,4 +784,9 @@
     width: 150px;
     height: 50px;
     border-radius: 10px;
+}
+
+
+.dignities p{
+    margin-top: 3px;
 }
