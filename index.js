@@ -45,3 +45,51 @@ const lift2 = () => {
         }
     })
 }
+
+const lift3 = () => {
+    const button = document.querySelector(".lift3");
+    const div = document.getElementById("ask3");
+    const ava = document.getElementById("ava_lift3");
+    button.addEventListener("click", () => {
+        if (div.classList.contains("ask3_small")){
+            div.classList.remove("ask3_small");
+            div.classList.add("ask3_big")
+            const sp = document.createElement('span');
+            div.appendChild(sp);
+            sp.id="text_ask3";
+            sp.innerHTML = "Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.";
+            ava.src = "up.png";
+        }
+        else{
+            div.classList.remove("ask3_big");
+            div.classList.add("ask3_small")
+            const rem = elementToRemove = document.getElementById("text_ask3");
+            div.removeChild(rem);
+            ava.src = "down.png";
+        }
+    })
+}
+
+const lift4 = () => {
+    const button = document.querySelector(".lift4");
+    const div = document.getElementById("ask4");
+    const ava = document.getElementById("ava_lift4");
+    button.addEventListener("click", () => {
+        if (div.classList.contains("ask4_small")){
+            div.classList.remove("ask4_small");
+            div.classList.add("ask4_big")
+            const sp = document.createElement('span');
+            div.appendChild(sp);
+            sp.id="text_ask4";
+            sp.innerHTML = "Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.";
+            ava.src = "up.png";
+        }
+        else{
+            div.classList.remove("ask4_big");
+            div.classList.add("ask4_small")
+            const rem = elementToRemove = document.getElementById("text_ask4");
+            div.removeChild(rem);
+            ava.src = "down.png";
+        }
+    })
+}
